@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "sevara",
+            "password": "123",
+            "first_name": "sevara",
+            "last_name": "latipova"
+        },
+        {
+            "id": 2,
+            "username": "admin",
+            "password": "123",
+            "first_name": "sevara",
+            "last_name": "latipova"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Laptop",
+            "price": 1200,
+            "stock": 5
+        },
+        {
+            "id": 2,
+            "name": "Mouse",
+            "price": 20,
+            "stock": 50
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "user_id": 2,
+            "total_price": 2400
+        },
+        {
+            "id": 2,
+            "user_id": 2,
+            "total_price": 120
+        }
+    ]
+}
